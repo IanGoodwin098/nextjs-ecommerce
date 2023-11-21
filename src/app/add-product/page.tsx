@@ -5,7 +5,7 @@ import { authOptions } from "../api/auth/[...nextauth]/route";
 import { getServerSession } from "next-auth";
 
 export const metadata = {
-  title: "Add Product - Flomazon",
+  title: "Add Product - Shopazon",
 };
 
 async function addProduct(formData: FormData) {

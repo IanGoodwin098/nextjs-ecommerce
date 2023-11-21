@@ -4,7 +4,7 @@ import { setProductQuantity } from "./actions";
 import { formatPrice } from "@/lib/format";
 
 export const metadata = {
-  title: "Your Cart - Flomazon",
+  title: "Your Cart - Shopazon",
 };
 export default async function CartPage() {
   const cart = await getCart();
